@@ -19,7 +19,6 @@ COURSES = {
     "40834": ("CHEM 1085-35", "General Chemistry Lab II"),
     "19723": ("CHEM 1085-37", "General Chemistry Lab II"),
     "56831": ("CHEM 1085-38", "General Chemistry Lab II"),
-    "19719": ("CHEM 1085-33", "General Chemistry Lab II"),
 }
 SEARCHES = sorted({sec.rsplit("-", 1)[0] for sec, _ in COURSES.values()})
 
